@@ -1,0 +1,31 @@
+{
+}
+  }
+    ]
+      }
+        "endOfLine": "auto"
+      {
+      "error",
+    "prettier/prettier": [
+    "react/react-in-jsx-scope": "off",
+  "rules": {
+  "plugins": ["react", "@typescript-eslint"],
+  },
+    "sourceType": "module"
+    "ecmaVersion": 12,
+    },
+      "jsx": true
+    "ecmaFeatures": {
+  "parserOptions": {
+  "parser": "@typescript-eslint/parser",
+  ],
+    "plugin:prettier/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "eslint:recommended",
+  "extends": [
+  },
+    "es2021": true
+    "browser": true,
+  "env": {
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/.eslintrc.json">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.eslintrc.json" />
+              <option name="updatedContent" value="{&#10;  &quot;env&quot;: {&#10;    &quot;browser&quot;: true,&#10;    &quot;es2021&quot;: true&#10;  },&#10;  &quot;extends&quot;: [&#10;    &quot;eslint:recommended&quot;,&#10;    &quot;plugin:react/recommended&quot;,&#10;    &quot;plugin:@typescript-eslint/recommended&quot;,&#10;    &quot;plugin:prettier/recommended&quot;&#10;  ],&#10;  &quot;parser&quot;: &quot;@typescript-eslint/parser&quot;,&#10;  &quot;parserOptions&quot;: {&#10;    &quot;ecmaFeatures&quot;: {&#10;      &quot;jsx&quot;: true&#10;    },&#10;    &quot;ecmaVersion&quot;: 12,&#10;    &quot;sourceType&quot;: &quot;module&quot;&#10;  },&#10;  &quot;plugins&quot;: [&quot;react&quot;, &quot;@typescript-eslint&quot;],&#10;  &quot;rules&quot;: {&#10;    &quot;react/react-in-jsx-scope&quot;: &quot;off&quot;,&#10;    &quot;prettier/prettier&quot;: [&#10;      &quot;error&quot;,&#10;      {&#10;        &quot;endOfLine&quot;: &quot;auto&quot;&#10;      }&#10;    ]&#10;  }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
