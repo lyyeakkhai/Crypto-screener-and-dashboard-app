@@ -5,7 +5,7 @@ import {TrendingUp, TrendingDown} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import {cn} from "@/lib/utils";
-import {formatCurrency} from "@/lib/utils";
+import {formatCurrency, formatPercentage} from "@/lib/utils";
 
 // we need to pass the column data to function
 const column : DataTableColumn<TrendingCoin>[] = [
@@ -34,7 +34,7 @@ const column : DataTableColumn<TrendingCoin>[] = [
             return(
                 <div className={cn('price-change', isTrendingUp ? "text-green-500" : "text-red-500")}>
                     {isTrendingUp ? (<TrendingUp width={16} height={16}/>) : (<TrendingDown width={16} height={16}/>)}
-                    {formatCurrency(item.data.price_change_percentage_24h.usd)}
+                    {formatPercentage(item.data.price_change_percentage_24h.usd)}
                 </div>
             )
         }
