@@ -1,7 +1,7 @@
 // this file contains actions related to coingecko API
 // all logic about fecthing data from coingecko API should be here
 // so this file must be sever only for fetching data
-'user sever';
+'use server';
 
 import qs from 'query-string'
 
@@ -17,8 +17,8 @@ if(!API_KEY) {
     throw new Error('Please provide COINGECKO_API_KEY env variable')
 }
 
-// then we can write a acync function to fetch data from coingecko API
-export async function fectcher<T>(
+// then we can write an async function to fetch data from coingecko API
+export async function fetcher<T>(
     endpoint: string,
     params?: QueryParams,
     revalidate = 60
