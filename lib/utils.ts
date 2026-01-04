@@ -12,3 +12,12 @@ export function formatCurrency(value: number, currency: string = "USD"): string 
     currency,
   }).format(value);
 }
+
+// Utility function to format a number as percentage
+export function formatPercentage(value: number): string {
+  return new Intl.NumberFormat("en-US", {
+    style: "percent",
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  }).format(value / 100);
+}
