@@ -17,7 +17,15 @@ if(!API_KEY) {
     throw new Error('Please provide COINGECKO_API_KEY env variable')
 }
 
-// then we can write a acync function to fetch data from coingecko API
+/**
+ * Fetches and returns JSON data from the CoinGecko API for a given endpoint and query parameters.
+ *
+ * @param endpoint - Path appended to the configured CoinGecko base URL (for example, `coins/markets`)
+ * @param params - Optional query parameters to include; keys with empty string or `null` are omitted
+ * @param revalidate - Cache revalidation time in seconds included in the request metadata
+ * @returns The parsed JSON response as type `T`
+ * @throws Error when the HTTP response is not OK; message includes the HTTP status and any error text returned by the API
+ */
 export async function fectcher<T>(
     endpoint: string,
     params?: QueryParams,
